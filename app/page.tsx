@@ -6,17 +6,35 @@ export default function Home() {
       <tr>
          <th>mot</th>
          <th>意味</th>
+         <th>mot</th>
+         <th>意味</th>	 
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>velo</td>
         <td>自転車</td>
+        <td>duex</td>
+        <td>2</td>	
       </tr>
       <tr>
         <td>verre</td>
         <td>グラス</td>
+        <td>trois</td>
+        <td>3</td>	
       </tr>
+      <tr>
+        <td>gâteau</td>
+        <td>ケーキ</td>
+        <td>quatre</td>
+        <td>4</td>	
+      </tr>
+      <tr>
+        <td>cadeau</td>
+        <td>プレゼント</td>
+        <td>cinq</td>
+        <td>5</td>	
+      </tr>      
     </tbody>
     </table>
     </div>
