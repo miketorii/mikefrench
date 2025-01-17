@@ -11,11 +11,11 @@ export default function Home() {
     <tbody>
       <tr>
         <td>velo</td><td>自転車</td><td>duex</td><td>2</td>
-	<td>la serviette</td>ナプキン<td>miam</td><td>おいしそう</td>
+	<td>la serviette</td><td>ナプキン</td><td>miam</td><td>おいしそう</td>
       </tr>
       <tr>
         <td>verre</td><td>グラス</td><td>trois</td><td>3</td>
-        <td>aujourd'hui</td><td>今日</td><td>placard</td><td>戸棚</td>	
+        <td>aujourd&#39;hui</td><td>今日</td><td>placard</td><td>戸棚</td>	
       </tr>
       <tr>
         <td>gâteau</td><td>ケーキ</td><td>quatre</td><td>4</td>
@@ -24,7 +24,7 @@ export default function Home() {
       <tr>
         <td>cadeau</td><td>プレゼント</td><td>cinq</td><td>5</td>
         <td>maintenant</td><td>今</td><td>De rien</td><td>どういたしまして</td>	
-      </tr>      
+      </tr>
     </tbody>
     </table>
     </div>
