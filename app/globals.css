@@ -19,3 +19,18 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+th,td {
+    border: solid 1px;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    width: 150px;
+    height: 40px;
+    background-color: #cfe3fa;
+}
