@@ -1,5 +1,7 @@
 import "./globals.css";
 
+import { NavLinks } from './ui/nav-links';
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -10,6 +12,7 @@ export default function RootLayout({
       <head>
       </head>
       <body>
+        <NavLinks />
         {children}
       </body>
     </html>
