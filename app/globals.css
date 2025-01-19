@@ -34,3 +34,9 @@ th {
     height: 40px;
     background-color: #cfe3fa;
 }
+
+th.mk-sentence {
+    width: 300px;
+    height: 40px;
+    background-color: #cfe3fa;
+}
