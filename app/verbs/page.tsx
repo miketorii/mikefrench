@@ -31,7 +31,7 @@ export default function VerbsPage(){
               <h1>This is verbs page</h1>
 	      { dispverbs }
        	      <p />
-	      <Link href="/"><button>back</button></Link>
+	      <Link href="/"><button className="mk-button mk-light-gray mk-left">back</button></Link>
        </div>
        );
 };

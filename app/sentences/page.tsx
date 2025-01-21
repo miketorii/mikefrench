@@ -20,7 +20,7 @@ export default function SentencesPage(){
 		</tbody>
 	      </table>
        	      <p />
-	      <Link href="/"><button>back</button></Link>
+	      <Link href="/"><button className="mk-button mk-light-gray mk-left">back</button></Link>
        </div>
        );
 };

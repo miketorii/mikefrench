@@ -41,7 +41,7 @@ export default function WordsPage() {
 		{ dispwords }
 	</tbody>
 	</table>	
-	<Link href="/"><button>back</button></Link>
+	<Link href="/"><button className="mk-button mk-light-gray mk-left">back</button></Link>
        </div>
        );
 };

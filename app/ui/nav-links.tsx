@@ -4,25 +4,25 @@ import Link from 'next/link';
 
 export function NavLinks() {
        return (
-       	      <div>
+       	      <div className="mk-bar mk-light-gray mk-border">
        	      <nav>
-		<Link href="/">
+		<Link className="mk-bar-item" href="/">
 		      Home
 		</Link>
 		<p/>
-		<Link href="/words">
+		<Link className="mk-bar-item" href="/words">
 		      Moi
 		</Link>
 		<p/>
-		<Link href="/verbs">
+		<Link className="mk-bar-item" href="/verbs">
 		      Verbs
 		</Link>
 		<p/>
-		<Link href="/sentences">
+		<Link className="mk-bar-item" href="/sentences">
 		      Sentences
 		</Link>
 		<p/>
-		<Link href="/about">
+		<Link className="mk-bar-item" href="/about">
 		      About
 		</Link>
 		<p/>

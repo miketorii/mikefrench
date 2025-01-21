@@ -5,7 +5,7 @@ export default function AboutPage(){
        <div>
               <h1>This is About page</h1>
        	      <p />
-	      <Link href="/"><button>back</button></Link>
+	      <Link href="/"><button className="mk-button mk-light-gray mk-right">back</button></Link>
        </div>
        );
 };

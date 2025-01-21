@@ -7,12 +7,14 @@
   --foreground: #171717;
 }
 
+/*
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
 }
+*/
 
 body {
   color: var(--foreground);
@@ -40,3 +42,42 @@ th.mk-sentence {
     height: 40px;
     background-color: #cfe3fa;
 }
+
+.mk-bar {
+    width: 100%;
+    display: inline-block;
+}
+
+.mk-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.mk-light-gray {
+    background-color: #f1f1f1;    
+}
+
+.mk-border {
+    border: 1px solid #ccc;
+}
+
+.mk-button {
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.mk-right {
+    float: right;
+}
+
+.mk-left {
+    float: left;
+}
+
