@@ -10,7 +10,7 @@ export default function WordsPage() {
        	     { "key": "4", "word": "miam", "translation": "おいしそう"},
        	     { "key": "5", "word": "verre", "translation": "グラス"},
        	     { "key": "6", "word": "trois", "translation": "3"},
-       	     { "key": "7", "word": "aujourd&#39;hui", "translation": "今日"},
+       	     { "key": "7", "word": "aujourd'hui", "translation": "今日"},
        	     { "key": "8", "word": "placard", "translation": "戸棚"},
        	     { "key": "9", "word": "gâteau", "translation": "ケーキ"},
        	     { "key": "10", "word": "quatre", "translation": "4"},
@@ -20,7 +20,8 @@ export default function WordsPage() {
        	     { "key": "14", "word": "cinq", "translation": "5"},
        	     { "key": "15", "word": "maintenant", "translation": "今"},
        	     { "key": "16", "word": "De rien", "translation": "どういたしまして"},
-       	     { "key": "17", "word": "quand", "translation": "いつ"}	     
+       	     { "key": "17", "word": "quand", "translation": "いつ"},
+       	     { "key": "18", "word": "près d'ici", "translation": "この近く"}	     
 	]
 	`;       
 
