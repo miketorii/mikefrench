@@ -19,7 +19,8 @@ export default function WordsPage() {
        	     { "key": "13", "word": "cadeau", "translation": "プレゼント"},
        	     { "key": "14", "word": "cinq", "translation": "5"},
        	     { "key": "15", "word": "maintenant", "translation": "今"},
-       	     { "key": "16", "word": "De rien", "translation": "どういたしまして"}
+       	     { "key": "16", "word": "De rien", "translation": "どういたしまして"},
+       	     { "key": "17", "word": "quand", "translation": "いつ"}	     
 	]
 	`;       
 
