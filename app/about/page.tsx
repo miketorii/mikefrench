@@ -66,9 +66,10 @@ export default function AboutPage(){
        ///////////////////////////////////////
        //
        const wordstmp = JSON.parse(words);
-       const dispwords = [];
 
        const createPaginatedWordData = () => {
+       	     const dispwords = [];
+       
        	     const ITEMS_PER_PAGE2 = 4;
        	     const startIndex = (currentPage-1) * ITEMS_PER_PAGE2;
 	     const endIndex   = startIndex + ITEMS_PER_PAGE2;
