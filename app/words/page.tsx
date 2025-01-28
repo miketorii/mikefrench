@@ -70,7 +70,10 @@ export default function WordsPage() {
 
        return (
        <div>
-	<h2>Page: {currentPage} / {totalPages}</h2>
+	<button className="mk-next-button mk-border mk-light-gray" key="buttonback" onClick={ () => handlePageChange( currentPage-1 ) } >&lt;&lt;</button>
+	{currentPage} / {totalPages} 	
+	<button className="mk-next-button mk-border mk-light-gray" key="buttonnext" onClick={ () => handlePageChange( currentPage+1 ) } >&gt;&gt;</button>
+	<p />
 	<table>
 	<thead>
 		<tr><th>mot</th><th>意味</th><th>mot</th><th>意味</th></tr>		
@@ -79,10 +82,6 @@ export default function WordsPage() {
 	      	 { createPaginatedWordData() }		
 	</tbody>
 	</table>
-	<p />
-	<button key="buttonnext" onClick={ () => handlePageChange( currentPage+1 ) } >next</button>
-	<p />
-	<button key="buttonback" onClick={ () => handlePageChange( currentPage-1 ) } >back</button>
 	<p />
 	<Link href="/"><button className="mk-button mk-light-gray mk-left">back</button></Link>
        </div>

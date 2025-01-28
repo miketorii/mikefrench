@@ -73,6 +73,14 @@ th.mk-sentence {
     cursor: pointer;
 }
 
+.mk-next-button {
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 4px;
+    cursor: pointer;
+}
+
 .mk-right {
     float: right;
 }
