@@ -11,21 +11,26 @@ export default function SentencesPage(){
        	     { "key": "3", "sentence": "Pourquoi Leo est ici?", "translated": "レオは何故ここにいますか？" }
        ];
 
-       const [sentencesdata, setData] = useState({ "key": "", "sentence": "", "translated": "" });
+//       const [sentencesdata, setData] = useState({ "key": "", "sentence": "", "translated": "" });
+       const [sentencesdata, setData] = useState([]);
 
        async function getSentences(){
        	     const res = await fetch("/api/getsentences");
 	     const data = await res.json();
-	     setData({ "key": data.key, "sentence": data.sentence, "translated": data.translated });
+//	     setData({ "key": data.key, "sentence": data.sentence, "translated": data.translated });
+	     setData(data);
        }
 
        return (
        <div>
               <h1>This is Sentences page</h1>
 	      <button className="mk-button mk-light-gray" onClick={getSentences}>get</button>
-	      <p />
-	      { sentencesdata.sentence }
-	      { sentencesdata.translated }
+	      <table>
+	      <thead></thead>
+	      <tbody>
+			{ sentencesdata.map( (obj) => ( <tr key={obj.key} ><td>{obj.sentence}</td><td>{obj.translated}</td></tr> )  ) }
+	      </tbody>
+	      </table>
 	      <p />
 	      <table>
 	      	<thead>
