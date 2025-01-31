@@ -17,14 +17,11 @@ export default function SentencesPage(){
        	     { "key": "3", "sentence": "Pourquoi Leo est ici?", "translated": "レオは何故ここにいますか？" }
        ];
 
-//       const [sentencesdata, setData] = useState([ { "key": "", "sentence": "", "translated": "" } ]);
-//       const [sentencesdata, setData] = useState([]);
        const [sentencesdata, setData] = useState<Sentence[] | null>(null);
 
        async function getSentences(){
        	     const res = await fetch("/api/getsentences");
 	     const data = await res.json();
-//	     setData({ "key": data.key, "sentence": data.sentence, "translated": data.translated });
 	     setData(data);
        }
 
