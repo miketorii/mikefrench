@@ -12,7 +12,8 @@ export default function SentencesPage(){
        ];
 
 //       const [sentencesdata, setData] = useState({ "key": "", "sentence": "", "translated": "" });
-       const [sentencesdata, setData] = useState([]);
+       const [sentencesdata, setData] = useState([ { "key": "", "sentence": "", "translated": "" } ]);
+//       const [sentencesdata, setData] = useState([]);
 
        async function getSentences(){
        	     const res = await fetch("/api/getsentences");
