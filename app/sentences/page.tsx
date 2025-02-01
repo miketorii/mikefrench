@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 interface Sentence {
   key: 	  	string;
@@ -23,8 +23,19 @@ export default function SentencesPage(){
        	     const res = await fetch("/api/getsentences");
 	     const data = await res.json();
 	     setData(data);
-       }
+       };
 
+       useEffect( () => {
+
+       	async function getSentences2(){
+       	     const res = await fetch("/api/getsentences");
+	     const data = await res.json();
+	     setData(data);
+       	};
+       
+       	getSentences2();
+       },[]);
+       
        return (
        <div>
               <h1>This is Sentences page</h1>
@@ -47,6 +58,20 @@ export default function SentencesPage(){
 		</tbody>
 	      </table>
        	      <p />
+
+	      <table>
+	      	<thead>
+			<tr><th className="mk-sentence">Sentences</th><th className="mk-sentence">Translated</th></tr>
+		</thead>
+		<tbody>
+			{sentencesdata && sentencesdata.map((sentence) => (
+			<tr key={sentence.key}><td>{sentence.sentence}</td><td>{sentence.translated}</td></tr>
+			) )}
+	      	</tbody>
+	      </table>
+	      
+	      <p />
+
 	      <Link href="/"><button className="mk-button mk-light-gray mk-left">back</button></Link>
        </div>
        );
