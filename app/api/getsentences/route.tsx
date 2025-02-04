@@ -1,4 +1,5 @@
 //import * as fs from 'fs';
+//import * as path from 'path';
 
 export async function GET() {
 
@@ -11,7 +12,11 @@ export async function GET() {
        return Response.json( sentences );
 
 /*
-       const filePath = '/data/sentences_data.json';
+       const filePath = path.join(__dirname,'data.json');
+
+       console.log(filePath);
+       console.log("------api get---------");
+       
        const data = fs.readFileSync(filePath, 'utf8');
        
        return Response.json( data );       
