@@ -2,6 +2,8 @@ import "./globals.css";
 
 import { NavLinks } from './ui/nav-links';
 
+import Footer from './_components/Footer';
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -15,6 +17,7 @@ export default function RootLayout({
       <body>
         <NavLinks />
         {children}
+	<Footer />
       </body>
     </html>
   );
