@@ -1,7 +1,6 @@
 export async function GET() {
 
-       const words = `
-       [
+       const words = [
        	     { "key": "1", "word": "velo", "translation": "自転車"},
        	     { "key": "2", "word": "duex", "translation": "2"},
        	     { "key": "3", "word": "la serviette", "translation": "ナプキン"},	
@@ -25,10 +24,24 @@ export async function GET() {
        	     { "key": "21", "word": "l'appartement", "translation": "アパート"},
        	     { "key": "22", "word": "le jardin", "translation": "庭"},
        	     { "key": "23", "word": "la musique", "translation": "音楽"},
-       	     { "key": "24", "word": "chocolat", "translation": "チョコレート"}	     
-	]
-	`;       
-
+       	     { "key": "24", "word": "chocolat", "translation": "チョコレート"},
+       	     { "key": "25", "word": "une ècole", "translation": "学校"},
+       	     { "key": "26", "word": "le parc", "translation": "公園"},
+       	     { "key": "27", "word": "la voiture", "translation": "車"},
+       	     { "key": "28", "word": "la valise", "translation": "スーツケース"},	     
+       	     { "key": "29", "word": "un avion", "translation": "飛行機"},
+       	     { "key": "30", "word": "l'aèroport", "translation": "空港"},
+       	     { "key": "31", "word": "le train", "translation": "電車"},
+       	     { "key": "32", "word": "un billet d'avion", "translation": "航空券"},
+       	     { "key": "33", "word": "ici", "translation": "ここに"},
+       	     { "key": "34", "word": "la chouette", "translation": "フクロウ"},
+       	     { "key": "35", "word": "le animal de campagnie", "translation": "ペット"},
+       	     { "key": "36", "word": "père", "translation": "父"},
+       	     { "key": "37", "word": "mère", "translation": "母"},
+       	     { "key": "38", "word": "frère", "translation": "兄"},
+       	     { "key": "39", "word": "sœur", "translation": "姉"},
+       	     { "key": "40", "word": "fils", "translation": "息子"}
+	];
 
        return Response.json( words );
 }
