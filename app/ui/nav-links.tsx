@@ -11,7 +11,7 @@ export function NavLinks() {
 		</Link>
 		<p/>
 		<Link className="mk-bar-item" href="/words">
-		      Moi
+		      Words
 		</Link>
 		<p/>
 		<Link className="mk-bar-item" href="/verbs">
