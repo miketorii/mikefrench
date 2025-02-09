@@ -84,8 +84,9 @@ export default function AboutPage(){
       };
 
        return (
-       <div>
+       <div className="mk-container">
               <h1>This is About page</h1>
+	      <Link href="/"><button className="mk-button mk-light-gray mk-right">back</button></Link>	      
 	      <h2>Page: {currentPage} / {totalPages}</h2>
        	      <p />
 	      <ul>
@@ -104,7 +105,6 @@ export default function AboutPage(){
 	      <button key="but1" onClick={ () => handlePageChange( currentPage+1 ) } >next</button>
 	      <p />
 	      <button key="but2" onClick={ () => handlePageChange( currentPage-1 ) } >back</button>	      
-	      <Link href="/"><button className="mk-button mk-light-gray mk-right">back</button></Link>
        </div>
        );
 };

@@ -83,6 +83,7 @@ export default function SentencesPage(){
 	</table>
 	<p />
 	<Link href="/"><button className="mk-button mk-light-gray mk-left">back</button></Link>
+	<p />
        </div>
        );
 };

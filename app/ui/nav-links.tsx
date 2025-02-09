@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export function NavLinks() {
        return (
-       	      <div className="mk-bar mk-light-gray mk-border">
+       	      <div className="mk-bar mk-grey">
        	      <nav>
 		<Link className="mk-bar-item" href="/">
 		      Home
