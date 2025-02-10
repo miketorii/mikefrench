@@ -14,7 +14,7 @@ export default function WordsPage() {
        const [wordsdata, setData] = useState<Word[] | null>(null);
        const [currentPage, setCurrentPage] = useState(1);
        
-       const ITEMS_PER_PAGE = 8;
+       const ITEMS_PER_PAGE = 10;
 
        let totalPages = 0;
        if (wordsdata != null ){
