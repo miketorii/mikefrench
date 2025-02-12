@@ -68,9 +68,9 @@ export default function SentencesPage(){
 
        return (
        <div>
-	<button className="mk-next-button mk-border mk-light-gray" key="buttonback" onClick={ () => handlePageChange( currentPage-1 ) } >&lt;&lt;</button>
+	<button className="mk-next-button mk-border mk-light-grey" key="buttonback" onClick={ () => handlePageChange( currentPage-1 ) } >&lt;&lt;</button>
 	{currentPage} / {totalPages} 	
-	<button className="mk-next-button mk-border mk-light-gray" key="buttonnext" onClick={ () => handlePageChange( currentPage+1 ) } >&gt;&gt;</button>       
+	<button className="mk-next-button mk-border mk-light-grey" key="buttonnext" onClick={ () => handlePageChange( currentPage+1 ) } >&gt;&gt;</button>       
         
 	<table>
        	<thead>
@@ -82,7 +82,7 @@ export default function SentencesPage(){
 	</tbody>
 	</table>
 	<p />
-	<Link href="/"><button className="mk-button mk-light-gray mk-left">back</button></Link>
+	<Link href="/"><button className="mk-button mk-light-grey mk-left">back</button></Link>
 	<p />
        </div>
        );
