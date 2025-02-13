@@ -13,6 +13,7 @@ export default function WordsPage() {
 
        const [wordsdata, setData] = useState<Word[] | null>(null);
        const [currentPage, setCurrentPage] = useState(1);
+       const [searchResult, setResult] = useState("init");       
        
        const ITEMS_PER_PAGE = 10;
 
@@ -62,11 +63,18 @@ export default function WordsPage() {
 	     return dispwords;
        };
 
+       const searchWord = (keyword: string) => {
+
+       	     const findword = keyword;
+       	     setResult(findword);
+       };
+
        return (
        <div>
 	<button className="mk-next-button mk-border mk-light-grey" key="buttonback" onClick={ () => handlePageChange( currentPage-1 ) } >&lt;&lt;</button>
 	{currentPage} / {totalPages} 	
-	<button className="mk-next-button mk-border mk-light-grey" key="buttonnext" onClick={ () => handlePageChange( currentPage+1 ) } >&gt;&gt;</button>       
+	<button className="mk-next-button mk-border mk-light-grey" key="buttonnext" onClick={ () => handlePageChange( currentPage+1 ) } >&gt;&gt;</button>
+	{ searchResult } <button className="mk-button mk-light-grey" onClick={ () => searchWord( "chocolat" ) } >Search</button>
 	<table>
 	<thead>
 		<tr><th>mot</th><th>意味</th><th>mot</th><th>意味</th></tr>		
