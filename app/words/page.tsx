@@ -64,7 +64,7 @@ export default function WordsPage() {
 	     return dispwords;
        };
 
-       const handleSearchValue = (event) => {
+       const handleSearchValue = (event: React.ChangeEvent<HTMLInputElement>) => {
        	     setSearchValue(event.target.value);
        };
 
