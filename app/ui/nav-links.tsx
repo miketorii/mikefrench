@@ -26,7 +26,6 @@ export function NavLinks() {
 		      About
 		</Link>
 		<p/>
-		<i className="fa fa-search mk-right"></i>
               </nav>
 	      </div>
        );
