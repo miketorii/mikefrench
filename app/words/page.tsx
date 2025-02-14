@@ -13,7 +13,7 @@ export default function WordsPage() {
 
        const [wordsdata, setData] = useState<Word[] | null>(null);
        const [currentPage, setCurrentPage] = useState(1);
-       const [searchResult, setResult] = useState("init");
+       const [searchResult, setResult] = useState('');
        const [searchValue, setSearchValue] = useState('');       
        
        const ITEMS_PER_PAGE = 10;
@@ -64,7 +64,7 @@ export default function WordsPage() {
 	     return dispwords;
        };
 
-       const handleSearchValue = () => {
+       const handleSearchValue = (event) => {
        	     setSearchValue(event.target.value);
        };
 
