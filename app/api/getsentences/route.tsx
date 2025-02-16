@@ -17,22 +17,36 @@ export async function GET() {
        	     { "key": "10", "sentence": "Pas du tout, Monsieur", "translated": "いいえ、全然です、旦那様" },
        	     { "key": "11", "sentence": "Vous voulez une autre part de pizza?", "translated": "ピザをもう一切れいかがですか？" },
        	     { "key": "12", "sentence": "Vous voulez un autre café", "translated": "コーヒーをもう一杯いかがですか？" },
-
        	     { "key": "13", "sentence": "Vous payez par carte?", "translated": "カードで払いますか？" },
        	     { "key": "14", "sentence": "Où est la réunion?", "translated": "会議はどこですか？" },
        	     { "key": "15", "sentence": "Notre fils travaille au Japon.", "translated": "私たちの息子は日本で働いています" },
        	     { "key": "16", "sentence": "L'entreprise est à Paris?", "translated": "その会社はパリにありますか？" },	     
-	     
        	     { "key": "17", "sentence": "Combien ca coute?", "translated": "いくらですか？" },
        	     { "key": "18", "sentence": "De rien", "translated": "どういたしまして" },
-       	     { "key": "19", "sentence": "Il y a des crepes", "translated": "クレープがあります" },
-       	     { "key": "20", "sentence": "On y va!", "translated": "行きましょう" }
+       	     { "key": "19", "sentence": "Il y a (des crepes)", "translated": "(クレープ)があります" },
+       	     { "key": "20", "sentence": "On y va!", "translated": "行きましょう" },
+       	     { "key": "21", "sentence": "Bon appètit", "translated": "どうぞ召し上がれ" },
+       	     { "key": "22", "sentence": "Pardon", "translated": "すみません" },
+       	     { "key": "23", "sentence": "Je ne sais pas", "translated": "分かりません" },
+       	     { "key": "24", "sentence": "Valià (le parc)", "translated": "これが(公園)です" },
+       	     { "key": "25", "sentence": "Joyeux anniversaire", "translated": "お誕生日おめでとう" },
+       	     { "key": "26", "sentence": "Excusez moi", "translated": "すみません" },
+       	     { "key": "27", "sentence": "Bien sur", "translated": "もちろん" },
+       	     { "key": "28", "sentence": "Je viens de (Paris)", "translated": "私は(パリ)出身です" },	     
+       	     { "key": "29", "sentence": "Je m'appelle Paul", "translated": "私の名前はポールです" },
+       	     { "key": "30", "sentence": "Il/Elle s'appelle Marie", "translated": "彼女の名前はマリーです" },
+       	     { "key": "31", "sentence": "Comment tu t'appelles?", "translated": "あなたの名前は何ですか？" },
+       	     { "key": "32", "sentence": "Je suis en France/en Chine", "translated": "私はフランスにいます" },
+       	     { "key": "33", "sentence": "Je suis au Japon", "translated": "私は日本にいます" },
+       	     { "key": "34", "sentence": "Je suis à Tokyo/à Berlin", "translated": "私は東京にいます" },
+       	     { "key": "35", "sentence": "Au revoir", "translated": "さようなら" },
+       	     { "key": "36", "sentence": "à bientot", "translated": "またね" }
        ];
 
        return Response.json( sentences );
 
 /*
-       	     { "key": "", "sentence": "", "translated": "" }
+       	     { "key": "", "sentence": "", "translated": "" },
 	     
        const filePath = path.join(__dirname,'data.json');
 
