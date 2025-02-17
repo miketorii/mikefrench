@@ -40,13 +40,28 @@ export async function GET() {
        	     { "key": "33", "sentence": "Je suis au Japon", "translated": "私は日本にいます" },
        	     { "key": "34", "sentence": "Je suis à Tokyo/à Berlin", "translated": "私は東京にいます" },
        	     { "key": "35", "sentence": "Au revoir", "translated": "さようなら" },
-       	     { "key": "36", "sentence": "à bientot", "translated": "またね" }
+       	     { "key": "36", "sentence": "à bientot", "translated": "またね" },
+       	     { "key": "37", "sentence": "Bonne soirée", "translated": "良い夜を" },
+       	     { "key": "38", "sentence": "Bonne journée", "translated": "良い一日を" },
+       	     { "key": "39", "sentence": "Bienvenue", "translated": "ようこそ" },
+       	     { "key": "40", "sentence": "à demain", "translated": "また明日" },
+       	     { "key": "41", "sentence": "Ah d'accord", "translated": "なるほど" },
+       	     { "key": "42", "sentence": "Sil vous plait", "translated": "お願いします" },
+       	     { "key": "43", "sentence": "Tu arrives quand?", "translated": "いつ着きますか？" },
+       	     { "key": "44", "sentence": "Pourquoi pas!", "translated": "いいですね" },	     	     
+       	     { "key": "45", "sentence": "Vous voulez un verre d'eau", "translated": "水を一杯ください" },
+       	     { "key": "46", "sentence": "Nous sommes perdus", "translated": "私たちは道に迷いました" },
+       	     { "key": "47", "sentence": "Vous arrivez quand?", "translated": "あなたはいつ着きますか？" },
+       	     { "key": "48", "sentence": "", "translated": "" }
        ];
 
        return Response.json( sentences );
 
 /*
        	     { "key": "", "sentence": "", "translated": "" },
+       	     { "key": "", "sentence": "", "translated": "" },
+       	     { "key": "", "sentence": "", "translated": "" },
+       	     { "key": "", "sentence": "", "translated": "" },	     
 	     
        const filePath = path.join(__dirname,'data.json');
 
