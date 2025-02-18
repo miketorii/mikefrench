@@ -55,7 +55,6 @@ export async function GET() {
 	     { "key": "68", "word": "la porte", "translation": "ドア"},
 	     { "key": "69", "word": "le magasin", "translation": "店"},
 	     { "key": "70", "word": "la table", "translation": "テーブル"},
-	     
 	     { "key": "71", "word": "la canapé", "translation": "ソファー"},
 	     { "key": "72", "word": "pache", "translation": "ポケット"},
 	     { "key": "73", "word": "méchant", "translation": "意地悪"},
@@ -105,7 +104,18 @@ export async function GET() {
 	     { "key": "117", "word": "sac", "translation": "かばん"},
 	     { "key": "118", "word": "pressé", "translation": "急ぐ"},
 	     { "key": "119", "word": "billet", "translation": "チケット"},
-	     { "key": "110", "word": "passeport", "translation": "パスポート"},	     
+	     { "key": "120", "word": "passeport", "translation": "パスポート"},
+
+	     { "key": "121", "word": "un portefeuille", "translation": "財布"},
+	     { "key": "122", "word": "lourd", "translation": "重い"},
+	     { "key": "123", "word": "la cousine", "translation": "キッチン"},
+	     { "key": "124", "word": "bon", "translation": "おいしい(男)"},
+	     { "key": "125", "word": "bonne", "translation": "おいしい(女)"},
+	     { "key": "126", "word": "le couteau", "translation": "ナイフ"},
+	     { "key": "127", "word": "le placard", "translation": "戸棚"},
+	     { "key": "128", "word": "le verre", "translation": "グラス"},
+	     { "key": "129", "word": "la tasse", "translation": "カップ"},
+	     { "key": "130", "word": "la fourchette", "translation": "フォーク"},
 	     
        	     { "key": "1101", "word": "velo", "translation": "自転車"},
        	     { "key": "1102", "word": "duex", "translation": "2"},
